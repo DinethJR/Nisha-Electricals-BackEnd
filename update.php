@@ -16,7 +16,7 @@ if(isset($_POST['update_product'])){
         move_uploaded_file($update_product_image_tmp_name,$update_product_image_folder);
         header('location:view_product.php');
     }else{
-        $display_message="There is some error in Updating the product";
+        $display_message="There is a Error of Updating the product";
     }
 
 }
